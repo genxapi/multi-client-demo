@@ -1,6 +1,6 @@
 # multi-client-demo
 
-Demo SDK generated from the public Petstore API using @eduardoac/generate-api-client.
+Demo SDK generated from the public Petstore API using @genxapi/cli.
 
 ## Clients
 
