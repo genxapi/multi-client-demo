@@ -1,3 +1,3 @@
-export * from './src/pets/client';
-export * from './model';
-export * from './src/pets/model';
+export * from "./client";
+export * from "./model";
+export * from "./client.msw";
