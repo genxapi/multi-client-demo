@@ -6,9 +6,9 @@ export default defineConfig({
       "target": "https://petstore3.swagger.io/api/v3/openapi.json"
     },
     "output": {
-      "target": "src/pets/client.ts",
+      "target": "client.ts",
       "workspace": "src/pets",
-      "schemas": "src/pets/model",
+      "schemas": "model",
       "mode": "split",
       "client": "react-query",
       "httpClient": "axios",
@@ -26,9 +26,9 @@ export default defineConfig({
       "target": "https://petstore3.swagger.io/api/v3/openapi.json"
     },
     "output": {
-      "target": "src/store/client.ts",
+      "target": "client.ts",
       "workspace": "src/store",
-      "schemas": "src/store/model",
+      "schemas": "model",
       "mode": "split",
       "client": "axios",
       "httpClient": "axios",
